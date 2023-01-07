@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+}
+
+#main {
+    text-align: center;
+}
+
+.text {
+    color: white;
+}
+
+#the-answer {
+    visibility: hidden;
+}
+
+#body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
