@@ -6,3 +6,8 @@ document.getElementById("submitbtn").addEventListener('click', () => {
         alert("Incorrect. Try again.")
     }
 })
+
+//code to display answer on bold hover
+document.getElementById("bold").onclick = function() {
+    document.getElementById("the-answer").style.color = "red"
+}
