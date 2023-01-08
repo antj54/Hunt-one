@@ -15,6 +15,10 @@ img {
     color: white;
 }
 
+#bold {
+    color: white;
+}
+
 #body {
     display: flex;
     flex-direction: column;
