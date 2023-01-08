@@ -19,6 +19,10 @@ img {
     color: white;
 }
 
+#bold:hover {
+    cursor: crosshair;
+}
+
 #body {
     display: flex;
     flex-direction: column;
@@ -35,6 +39,11 @@ img {
 #the-answer {
     color: black
 }
+
+#the-answer:hover {
+    cursor: default;
+}
+
 @media only screen and (max-width: 800px) {
     img {
         width: 40rem;
